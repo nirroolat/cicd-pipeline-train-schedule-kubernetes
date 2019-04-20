@@ -18,7 +18,7 @@ spec:
  metadata:
    name: train-schedule-deployment
    labels:
-     apps: train-schedule
+     app: train-schedule
  spec:
    replicas: 2
    selector:
